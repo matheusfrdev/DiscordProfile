@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(8, 5, 5);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#profile{
+    height: 550px;
+    width: 300px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#header{
+    background-color: rgb(69, 13, 201);
+    width: 100%;
+    height: 75px;
+}
+
+#image{
+    background-image: url("imagens/perfil.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 28px;
+    margin-left: 20px;
+    border: solid 6px rgb(22, 22, 22);
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+#online{
+    background-color: rgba(41, 153, 7, 0.562);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: solid 5px rgb(22, 22, 22);
+    box-sizing: border-box;
+}
+
+#userInfo{
+    height: 100%;
+    padding: 15px;
+    width: 100%;
+}
+
+#nickname{
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    border-bottom: 1px solid rgb(179, 179, 179);   
+}
+
+#number{
+    color: rgb(179, 179, 179);
+}
+
+#memberTime > p{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+#timeInfo{
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+#dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(179, 179, 179);
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#playingInfo > p{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+}
+
+div > p{
+    font-size: 15px;
+}
+
+#playingMenu{
+    height: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+#imagePlaying{
+    background-image: url(imagens/logo.png);
+    background-size: cover;
+    background-position: right;
+    width: 50px;
+    height: 100%;
+    border-radius: 15%;
+}
+
+#textPlaying{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 0%;
+}
+
+#textPlaying > p, h3{
+    margin: 0;
+}
+
+#textPlaying > p{
+    color: rgb(179, 179, 179);
+    margin-bottom: 35%;
+}
+
+#rolesInfo > p{
+    color: rgb(179, 179, 179);
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5%;
+}
+
+#rolesContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.roleBox{
+    background-color: rgb(71, 70, 70);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 7px;
+    border-radius: 5%;
+    height: 25px;
+    padding: 5px;
+}
+
+.roleBox > .circle{
+    width: 15px;
+    height: 15px;
+}
+
+#addRole{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(71, 70, 70);
+    border-radius: 10%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addIcon::before{
+    content: '\002B';
+    font-size: 25px;
+}
+
+#noteText{
+    resize: none;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    border-radius: 5px;
+    border: 0;
+    color: white;
+}
+
+#noteText:focus{
+    outline: none;
+    background-color: rgb(61, 61, 61);
+}
+
+#notes > p{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(179, 179, 179);
+}
