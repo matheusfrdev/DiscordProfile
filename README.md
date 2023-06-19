@@ -1,4 +1,4 @@
-# ⚡ Layout Discord
+# ⚡ Profile Discord
 
 <img src="./imagens/foto.png">
 
