@@ -2,5 +2,5 @@
 
 <img src="./imagens/foto.png">
 
-_**🤔 Bom, hoje eu resolvi fazer uma interface do perfil do Discord, e achei o resultado bem interessante no final. E deixei a interface nada responsiva, pois estava com preguiça.**_ 
+_**🤔 Bom, hoje eu resolvi fazer uma interface do perfil do Discord, e achei o resultado bem interessante no final. Em breve tento melhorar a página, e deixar bem interativa.**_ 
 ###### Feito com ❤ por [Matheus](https://twitter.com/naflyyyy).
